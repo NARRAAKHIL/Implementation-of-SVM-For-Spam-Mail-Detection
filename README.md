@@ -76,19 +76,15 @@ accuracy
 ## Output:
 
 HEAD FUNCTION :
-
 ![image](https://github.com/user-attachments/assets/cdc2607a-7821-40b9-bde3-bb56d1cbd25f)
 
 DATA INFORMATION :
-
 ![image](https://github.com/user-attachments/assets/7ba56627-b316-460e-a8e8-6a22f273016d)
 
 Y-PREDICT :
-
 ![image](https://github.com/user-attachments/assets/3cecba65-d144-4e94-9053-6383ea3299a9)
 
 ACCURACY :
-
 ![image](https://github.com/user-attachments/assets/ef9c6251-bf5d-4372-9112-5673998b9709)
 
 ## Result:
