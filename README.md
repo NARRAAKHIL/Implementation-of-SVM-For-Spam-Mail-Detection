@@ -28,13 +28,11 @@ Step 9. End the Program.
 
 ## Program:
 ```
-/*
+
 Program to implement the SVM For Spam Mail Detection..
 Developed by: NARRA AKHIL
 RegisterNumber: 212223230136
-*/
-```
-```
+
 import pandas as pd
 data=pd.read_csv("Exp_11_spam.csv",encoding='windows-1252')
 
@@ -67,6 +65,10 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
+
+
+
+
 ```
 
 ## Output:
