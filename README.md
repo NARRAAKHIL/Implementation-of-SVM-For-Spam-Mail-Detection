@@ -37,40 +37,29 @@ RegisterNumber: 212223230136
 ```
 import pandas as pd
 data=pd.read_csv("Exp_11_spam.csv",encoding='windows-1252')
-
 data.head()
-
 dat.info()
-
 data.isnull().sum()
-
 x=data["v1"].values
-
 y=data["v2"].values
-
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test= train_test_split(x,y,test_size=0.2,random_state=0)
-
 from sklearn.feature_extraction.text import CountVectorizer
 #CountVectorizer is a method to convert text to numerical data.
 The text is transformed to a sparse matrix
 cv=CountVectorizer()
-
 x_train=cv.fit_transform(x_train)
 x_test=cv.transform(x_test)
-
 from sklearn.svm import SVC
 svc=SVC()
 svc.fit(x_train,y_train)
 y_pred=svc.predict(x_test)
 y_pred
-
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 ```
 ## Output:
-
 HEAD FUNCTION :
 ![image](https://github.com/user-attachments/assets/cdc2607a-7821-40b9-bde3-bb56d1cbd25f)
 
