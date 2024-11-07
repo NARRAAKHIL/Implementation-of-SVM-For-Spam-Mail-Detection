@@ -68,6 +68,9 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
+
+
+
 ```
 
 ## Output:
